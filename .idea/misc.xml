@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.11031175059952038" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_checkedcircle.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2135" />
+        <entry key="app/src/main/res/layout-night/activity_plan.xml" value="0.2640625" />
+        <entry key="app/src/main/res/layout/activity_all_trainings.xml" value="0.2640625" />
+        <entry key="app/src/main/res/layout/activity_edit.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3862289428710938" />
+        <entry key="app/src/main/res/layout/activity_plan.xml" value="0.10011749267578125" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.24104253283803623" />
+        <entry key="app/src/main/res/layout/activity_training.xml" value="0.26757631655092595" />
+        <entry key="app/src/main/res/layout/activity_web_actitivty.xml" value="0.2640625" />
+        <entry key="app/src/main/res/layout/dialog_plan_details.xml" value="0.30453615541811346" />
+        <entry key="app/src/main/res/layout/plan_item.xml" value="0.4690762555157697" />
+        <entry key="app/src/main/res/layout/training_item.xml" value="0.4664855957031251" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

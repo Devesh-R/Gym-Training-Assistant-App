@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEnterDetails"
+        android:layout_margin="20dp"
+        android:text="Enter Details"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Training Name"
+        android:id="@+id/ttxtName"
+        android:layout_below="@id/txtEnterDetails"
+        />
+
+    <TextView
+        android:id="@+id/txthowlong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ttxtName"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="How much time do you have in mind ?"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="minutes"
+        android:id="@+id/edtTxtminutes"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txthowlong"
+        android:inputType="number"
+
+        />
+    <TextView
+        android:id="@+id/txtSelectDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtTxtminutes"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Select the day:"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinnerDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSelectDay"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/days"
+        android:spinnerMode="dropdown" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerDay"
+        android:layout_margin="14dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DISMISS"
+            android:id="@+id/btnDismiss"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:layout_marginStart="30dp"
+            android:layout_toRightOf="@id/btnDismiss"
+            android:id="@+id/btnAdd"/>
+    </RelativeLayout>
+</RelativeLayout>
